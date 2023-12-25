@@ -1,0 +1,21 @@
+{
+  "name": "apt20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sub-wallet": "ts-node subWallet.ts",
+    "mint": "ts-node main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "aptos": "^1.21.0",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
